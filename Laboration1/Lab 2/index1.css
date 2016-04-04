@@ -1,0 +1,94 @@
+body {
+
+	font-family: sans-serif; 
+
+	background-image: url(konstsmide.jpg);
+}
+li{
+	font-size: 11px;
+	display: inline-block;
+	margin-left: 15%;
+	border-style: double; 
+	border-color: lightgrey
+}
+ul{
+	background-color: grey;
+	width: 910px;
+	line-height: 20%;
+}
+
+div{
+	position:absolute;top: 125px; left: 177px;
+	height: 3250px;
+	width: 950px;
+	background-color: #ecd9c6;
+}
+img{
+	margin-left: 28%;
+}
+h1{margin-left: 30%;
+}
+p{margin-left: 40%;
+}
+h4{
+	font-family: sans-serif; 
+	margin-left: 3%;
+}
+h3{font-family: sans-serif; 
+	margin-left: 8%;
+}
+h2{
+	margin-left: 15%;
+	font-family: sans-serif; 
+	color: #404040;
+}
+iframe{margin-left: 4%;}
+#guldrubrik{
+	font-family: sans-serif;
+	color: #404040;
+	margin-left: 25%;
+}
+img.align-center{
+	display:block;
+	margin: 0px auto;
+}
+img.medium{
+	width: 350px;
+}
+a{
+	color: black;
+	font-family: sans-serif;
+	text-decoration: none;
+}
+a:hover{
+	color: white;
+	text-decoration: underline;
+}
+#breadcrumb{
+	margin-left: 1%;
+
+}
+#breadcrumbhem{
+	text-decoration: underline;
+}
+
+
+
+
+table{
+	background-color: grey
+}
+fieldset{
+	margin-top: 1%;
+	margin-left: 60%;
+	height: 80px;
+	width: 300px;
+	border-color: grey;
+}
+
+
+
+
+
+
+
