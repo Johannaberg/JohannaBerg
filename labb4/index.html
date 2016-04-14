@@ -3,12 +3,13 @@
 <head>
     <title>ELgiganten layout minimalistiskt!</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/startsida.css">
     <style>
-        section,aside{
-            border: 3px solid blue;
-        }
+    .wrapper{
+        border-color: blue;
+    }
     </style>
 </head>
 <body>
@@ -16,17 +17,40 @@
         <header class="row">
             <section class="col-sm-4">
                 <img id="logga" src="bilder/logga.png" alt="logotype pysseboxen.se"></section>
-            <section class="col-sm-4"></section>
-            <section class="col-sm-4">
+            <section class="col-sm-5">
+            <nav id="navigation">
+            <ul>
+                <li><a href="vaavraboxar.html" class="btn btn-default">Våra boxar</a><li>
+                <li><a href="faq.html" class="btn btn-default">FAQ</a></li>
+                <li><a href="inspiration.html" class="btn btn-default">Inspiration</a></li>
+                <li><a href="bloggen.html" class="btn btn-default">Bloggen</a></li>
+            </ul>
+        </nav>
+        </section>
+            <section class="col-sm-3">
                 <form>
                     <img id="sokknapp"src="bilder/sok.png">
                     <input  type="search" name="search" placeholder="sök blogginlägg"/>
                     <input id="sarch"type="submit" value="Sök"/>
                 </form>
+                <nav class="navbar">
                 <img id="varukorg" src="bilder/varukorg.png">
-              <img id="logga-in"src="bilder/loggain.png">
-            </section>
-        </header>
+                <a href="#"> Varukorg <span class="badge">3</span></a>
+            
+    <section id="nav-login">
+    <img id="logga-in"src="bilder/loggain.png">
+                <ul>
+                     <li id="login">
+                 <a id="login-trigger" href="#">
+                 Logga in <span>▼</span>
+                 </a>
+      <div id="login-content">
+        </div>                     
+    </li>
+  </ul>
+</nav>
+</section>
+    </header>
         <div class="row">
             <section class="col-sm-12">
                 <h1>Skräddarsytt pyssen för dig och din din familj, rätt ner i brevlådan.</h1>

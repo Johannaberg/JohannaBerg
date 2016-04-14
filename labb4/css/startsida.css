@@ -13,23 +13,94 @@
 }
 form input{
 	display: inline;
+	width: 55%;
 }
-#sokknapp{
-	width: 70px;
+#sarch{
+	font-size: 12px;
+	width: 18%;
 }
-#logga-in{
-	width: 100px;
-	margin-top: 0%;
 
+#sokknapp{
+	width: 25%;
 }
 header{
 	background-color: hsl(0, 0%, 87%);
+	padding-bottom: 0%;
 
 }
 #varukorg{
-	width: 70px;
-	margin-left: 50%;
+	width: 20%;
+	margin-left: 5%;
+}
+nav a{
+	color: grey;
+}
+#logga-in{
+	width: 30%;
+	padding-top: 0%;
+}
+#navigation ul li{
+	display: inline;
+	margin-bottom: 0%;
+	text-align: center;
+	box-shadow: 50%;
+	background-color: hsl(0, 0%, 87%);
 
 }
+.navbar{
+	margin-left: 0%;
+}
+section ul {
+  padding: 0%;
+ list-style: none;
+  float: left;
+  background: #eee;
+  border-radius: 3px;  
+  margin-top: 7%;
+  width: 60%;
+  font-size: 12px
+
+}
+section ul li a{
+	color: grey;
+}
+#nav-login{
+	float: right;
+	display: inline;
+}
+nav{
+	display: inline;
+	padding-bottom: 0%;
+}
+.btn-default{
+	font-size: 12px;
+	width: 40%;
+	padding-right: 0%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
