@@ -19,10 +19,6 @@ form input{
 	font-size: 12px;
 	width: 18%;
 }
-
-#sokknapp{
-	width: 25%;
-}
 header{
 	background-color: hsl(0, 0%, 87%);
 	padding-bottom: 0%;
@@ -32,7 +28,7 @@ header{
 	width: 20%;
 	margin-left: 5%;
 }
-nav a{
+ nav a{
 	color: grey;
 }
 #logga-in{
@@ -41,11 +37,10 @@ nav a{
 }
 #navigation ul li{
 	display: inline;
-	margin-bottom: 0%;
-	text-align: center;
-	box-shadow: 50%;
-	background-color: hsl(0, 0%, 87%);
-
+}
+#navigation ul li a{
+	color: grey;
+	padding: 2%;
 }
 .navbar{
 	margin-left: 0%;
@@ -70,12 +65,9 @@ section ul li a{
 }
 nav{
 	display: inline;
-	padding-bottom: 0%;
+	
 }
-.btn-default{
-	font-size: 12px;
-	width: 40%;
-	padding-right: 0%;
+
 
 }
 
