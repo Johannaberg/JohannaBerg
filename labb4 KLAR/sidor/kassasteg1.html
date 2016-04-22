@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Skräddarsy din pysselbox.</title>
+    <meta charset="utf-8"/>
+     <meta name="content" content="Ställ in dina barns favorit pyssel oh intressen så gör vi en Pysselbox skräddarsydd för din familj."/>
+    <meta name="keywords" content="Pysselboxen, pyssel, box, skräddarsy, utvalt, enkelt och lätt">
+    <meta name="author" content="Johanna Berg">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/varaboxar.css"/>
+</head>
+<body>
+    <div class="wrapper container">
+        <header class="row">
+            <div class="col-sm-4">
+                <h1 id="SEO">Ställ in dina barns favoritpyssel så skräddarsyr vi en pysselbox för just din familj.</h1>
+                <img id="logga" src="../bilder/logga.png" alt="logotype pysseboxen.se" title="Pysselboxen.se"/>   
+            </div>
+            <div class="col-sm-4">
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="varaboxar.html" class="btn btn-default">Våra boxar</a></li>
+                        <li><a href="faq.html" class="btn btn-default">FAQ</a></li>
+                        <li><a href="inspiration.html" class="btn btn-default">Om oss</a></li>
+                        <li><a href="bloggen.html" class="btn btn-default">Bloggen</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4">
+                <form>
+                    <input type="search" name="search" placeholder="sök blogginlägg"/>
+                    <input id="sarch" type="submit" value="sök"/>
+                </form>
+            </div>
+                <nav class="navbar">
+                    <div id="nav-login">
+                        <img id="logga-in" src="../bilder/loggain.png" alt="Pysselboxen AB mina sidor" title="logga in på Pysselboxen.se"/>
+                            <ul>
+                                <li id="login">
+                                    <a id="login-trigger" href="#">Logga in <span>▼</span></a>
+                                </li>
+                             </ul>
+                    </div>
+                    <span class="badge">1</span>
+                        <img id="varukorg" src="../bilder/varukorg.png" alt="Lägg din Pysselbox i varukorgen" title="Lägg din skräddarsydda pysselbox i varukorgen"/>
+                </nav>
+        </header>
+    <ul class="breadcrumb">
+        <li><a href="../index.html">Hem</a></li>
+        <li><a href="varaboxar.html">Våra boxar</a></li>
+        <li class="active">Steg 1 - ställ in dina preferenser:</li>
+    </ul>
+    <h1>1: Ställ in dina preferenser</h1>
+    <div class="row">
+        <form class="form-horizontal">
+              <fieldset>
+                <legend>Gör dina val så att vi kan skräddarsy en pysselbox till just dig!</legend>
+                <div class="form-group">
+                      <label class="col-sm-2 control-label">Jag vill ha följande typ av pysselbox direkt hem i brevlådan</label>
+                      <div class="checkbox">
+                      <label>
+                        <input type="checkbox" checked="checked">
+                        Prova på boxen
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        prenumerations boxen
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        presentboxen
+                      </label>
+                    </div>
+                    <label class="col-sm-2 control-label">Vilka typer av pyssel är ditt/dina barns favoritpyssel? </label>
+                  <div class="col-sm-10">
+                     <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        Pärlplattor
+                      </label>
+                    </div>
+                    <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        Måla
+                      </label>
+                    </div>
+                     <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        Loomisar
+                      </label>
+                    </div>
+                     <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        Modellera
+                      </label>
+                    </div>
+                     <div class="checkbox">
+                      <label>
+                        <input type="checkbox">
+                        Smyckestillverklning
+                      </label>
+                    </div>
+                  </div>
+                    <div class="form-group">
+                  <label for="select" class="col-sm-2 control-label">Hur många barn är pysselboxen till?</label>
+                  <div class="col-sm-10">
+                    <select class="form-control">
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                      <option>7</option>
+                      <option>8</option>
+                      <option>9</option>
+                      <option>10</option>
+                    </select>
+                 </div>
+             </div>
+             <div class="form-group">
+                  <label for="select" class="col-sm-2 control-label">Hur gamla är barnen/barnet?</label>
+                  <div class="col-sm-10">
+                    <select class="form-control" id="select">
+                      <option>2-3år</option>
+                      <option>4-5år</option>
+                      <option>6-7år</option>
+                      <option>8-9år</option>
+                      <option>10-12år</option>
+                      <option>13-15år</option>
+                    </select>
+                 </div>
+             </div>
+                   <div class="form-group">
+                  <label for="inputEmail" class="col-sm-2 control-label">Namn på pysslaren/pysslarna:</label>
+                  <div class="col-sm-10">
+                    <input  name="namn" type="text" maxlength="30" class="form-control" placeholder="skriv pysslarnas förnamn här..." required id="inputEmail">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="textArea" class="col-sm-2 control-label">Övriga fakta vi bör veta om pysslaren/pysslarna?</label>
+                  <div class="col-sm-10">
+                    <textarea class="form-control" rows="3" id="textArea"></textarea>
+                    <span class="help-block">Här kan du skriva till exempel om barnets/barnens favoritfärg eller speciella intressen som pirater eller någon speciell saga så att vi kan göra sin box extra rolig för just din skull!</span>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="col-sm-10 col-sm-offset-2">
+                    <a href="varaboxar.html"  class="btn btn-default">Tillbaka</a>
+                    <a href="kassasteg2.html"  class="btn btn-primary">Jag har gjort mina val och vill gå vidare&rarr;</a>
+                  </div>
+                </div>
+            </div>
+              </fieldset>
+            </form> 
+    <a href="#logga">Till toppen av sidan</a>
+ <div class="container fluid">
+                <div id="socialmedia"> 
+                    <a href="pinterest.se"><img src="../bilder/pinterest.png" alt="följ pysselboxen på pinterest"></a>
+                    <a href="facebook.se"><img src="../bilder/facebook.png" alt="följ pysselboxen på facebook "></a>
+                    <a href="instagram.se"><img src="../bilder/instagram.png" alt="följ pysselboxen på instagram"></a>
+                </div>
+            <footer>
+                <a href="omoss.html">Kontakta oss på pysselboxen &#8286;</a>
+                <a href="faq.html">FAQ &#8286;</a> För personlig kundservice ring:
+                <a href="">073-747375 </a>
+            </footer>
+    </div>
+    </div>
+</div>
+</body>
+</html>

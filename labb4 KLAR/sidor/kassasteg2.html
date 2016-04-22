@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <title>Slutför ditt köp.</title>
+    <meta charset="utf-8"/>
+     <meta name="content" content="Pysselboxen skickas hem till din brevlåda så ofta du vill."/>
+    <meta name="keywords" content="Pysselboxen, pyssel, box, snabb leverans, brevlådan, hemleverans.">
+    <meta name="author" content="Johanna Berg">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/varaboxar.css"/>
+</head>
+<body>
+    <div class="wrapper container">
+        <header class="row">
+            <div class="col-sm-4">
+                <h1 id="SEO">Pysselboxen behöver dina leveransuppgifter så att du kan få din pysselbox hem ibrevlådan om bara några dagar</h1>
+                <img id="logga" src="../bilder/logga.png" alt="logotype pysseboxen.se" title="Pysselboxen.se"/>   
+            </div>
+            <div class="col-sm-4">
+                <nav id="navigation">
+                    <ul>
+                        <li><a href="varaboxar.html" class="btn btn-default">Våra boxar</a></li>
+                        <li><a href="faq.html" class="btn btn-default">FAQ</a></li>
+                        <li><a href="inspiration.html" class="btn btn-default">Om oss</a></li>
+                        <li><a href="bloggen.html" class="btn btn-default">Bloggen</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-sm-4">
+                <form>
+                    <input type="search" name="search" placeholder="sök blogginlägg"/>
+                    <input id="sarch" type="submit" value="sök"/>
+                </form>
+            </div>
+                <nav class="navbar">
+                    <div id="nav-login">
+                        <img id="logga-in" src="../bilder/loggain.png" alt="Pysselboxen AB mina sidor" title="logga in på Pysselboxen.se"/>
+                            <ul>
+                                <li id="login">
+                                    <a id="login-trigger" href="#">Logga in <span>▼</span></a>
+                                </li>
+                             </ul>
+                    </div>
+                    <span class="badge">1</span>
+                        <img id="varukorg" src="../bilder/varukorg.png" alt="Lägg din Pysselbox i varukorgen" title="Lägg din skräddarsydda pysselbox i varukorgen"/>
+                </nav>
+        </header>
+            <ul class="breadcrumb">
+                <li><a href="../index.html">Hem</a></li>
+                <li><a href="varaboxar.html">Våra boxar</a></li>
+                <li><a href="kassasteg1.html">Steg 1 - ställ in dina preferenser:</a></li>
+                <li class="active">Steg 2 - Genomför ditt köp</li>
+            </ul>
+                <form class="form-horizontal">
+                      <fieldset>
+                        <legend>Dina levaransuppgifter</legend>
+                        <div class="form-group">
+                          <label for="inputEmail" class="col-sm-2 control-label">Mailadress</label>
+                          <div class="col-sm-10">
+                            <input name="email" type="text" maxlength="30" class="form-control" placeholder="Skriv din mailadress här..." required id="email">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="text" class="col-sm-2 control-label">Fullständigt namn</label>
+                          <div class="col-sm-10">
+                            <input  name="namn" type="text" maxlength="30" class="form-control" placeholder="Skriv ditt för- och efternamn här..." required id="text">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="text" class="col-sm-2 control-label">Gata</label>
+                          <div class="col-sm-10"> 
+                            <input name="gata" type="text" maxlength="30" class="form-control"  placeholder="Skriv din gata och gatnummer här..." required id="gata">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="numbers" class="col-sm-2 control-label">Gatnummer</label>
+                          <div class="col-sm-10">
+                            <input name="gatnummer" type="number" class="form-control" placeholder="Skriv ditt postnummer här" required id="numbers">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="numbers" class="col-sm-2 control-label">Postnummer</label>
+                          <div class="col-sm-10">
+                            <input name="postnummer" type="number" class="form-control" placeholder="Skriv ditt postnummer här" required id="postnummer">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="text" class="col-sm-2 control-label">Ort</label>
+                          <div class="col-sm-10">
+                            <input name="ort" type="text" maxlength="20" class="form-control" id="inputEmail" placeholder="Skriv din postort här" required>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label class="col-lg-2 control-label">Betalningssätt</label>
+                          <div class="col-lg-10">
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+                                Swish: 0kr
+                              </label>
+                            </div>
+                            <div class="radio">
+                              <label>
+                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                                Faktura: 25kr
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="col-lg-10 col-lg-offset-2">
+                            <a href="kassasteg1.html" class="btn btn-default">Tillbaka</a>
+                            <a href="kassasteg3.html" class="btn btn-primary">Genomför min betalning</a>
+                          </div>
+                        </div>
+                      </fieldset>
+                    </form>
+            <a href="#logga">Till toppen av sidan</a>
+            <div class="container fluid">
+                <div id="socialmedia"> 
+                    <a href="pinterest.se"><img src="../bilder/pinterest.png" alt="följ pysselboxen på pinterest"></a>
+                    <a href="facebook.se"><img src="../bilder/facebook.png" alt="följ pysselboxen på facebook "></a>
+                    <a href="instagram.se"><img src="../bilder/instagram.png" alt="följ pysselboxen på instagram"></a>
+                </div>
+            <footer>
+                <a href="omoss.html">Kontakta oss på pysselboxen &#8286;</a>
+                <a href="faq.html">FAQ &#8286;</a> För personlig kundservice ring:
+                <a href="">073-747375 </a>
+            </footer>
+    </div>
+    </div>
+</body>
+</html>
